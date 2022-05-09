@@ -15,7 +15,7 @@ let div = null;
         navigator.clipboard.writeText(code.value);
         if (div !== null) {
             div.remove();
-            div.null;
+            div = null;
         }
         generalToastMessage(`${code.value} Copied`);
     })
